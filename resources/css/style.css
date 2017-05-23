@@ -36,13 +36,26 @@ header {
     padding: 0 15px 0 15px;
   }
 
-  /*
-  header span{
-   display:inline-block;
-   padding: 0 15px 0 15px;
- }
-*/
-
- a {
+ nav a {
    color: seashell;
+ }
+
+ /* Mission Area*/
+
+.top{
+  margin-top: 70px;
+
+}
+
+ .mission{
+   height: 700px;
+   width: 1200px;
+   background: url(../images/img-mission-background.jpg) no-repeat center center;
+   display:flex;
+   align-items: center;
+ }
+
+ .verbage{
+   background-color: black;
+   width: 100%;
  }
