@@ -46,7 +46,7 @@ header {
   margin-top: 70px;
 }
 
- .mission{
+ .miss{
    height: 700px;
    width: 1200px;
    background: url(../images/img-mission-background.jpg) no-repeat center center;
@@ -61,32 +61,40 @@ header {
 
  /* TotM Area */
 
- .mid{
-  display: block;
-  font-family: Helvetica;
+ div .mid{
+   display: block;
+   font-family: Helvetica;
+   flex-wrap: wrap;
+ }
+
+ .mid h2{
+   margin: 85px 0 0 0;
  }
 
 .teacont{
- width: 1000px;
- display:flex;
- align-items: center;
- justify-content: center;
-
+  width: 1000px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 0 0 200px;
 }
 
 .totm{
-text-align: center;
-margin-right: 15px;
+  text-align: center;
+  margin-right: 25px;
 }
 
 .timage{
-width: 300px;
-height: 200px;
+  display: inline-block;
+  width: 300px;
+  height: 200px;
 }
 
 .ttype{
-text-align: center;
-margin-top: 10px;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
 /*padding-top: 10px;*/
 
 }
